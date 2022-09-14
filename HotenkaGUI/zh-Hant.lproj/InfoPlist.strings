@@ -1,0 +1,8 @@
+/* Bundle display name */
+"CFBundleDisplayName" = "步天歌繁簡轉換";
+
+/* Bundle name */
+"CFBundleName" = "步天歌繁簡轉換";
+
+/* Copyright (human-readable) */
+"NSHumanReadableCopyright" = "@ 2022 and onwards The vChewing Project";

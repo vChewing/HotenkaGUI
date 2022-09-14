@@ -1,0 +1,9 @@
+/* Bundle display name */
+"CFBundleDisplayName" = "HotenkaCC";
+
+/* Bundle name */
+"CFBundleName" = "HotenkaCC";
+
+/* Copyright (human-readable) */
+"NSHumanReadableCopyright" = "@ 2022 and onwards The vChewing Project";
+

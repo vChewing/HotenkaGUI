@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B2E270928D21A5000EB212E /* HotenkaGUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E270828D21A5000EB212E /* HotenkaGUIApp.swift */; };
+		5B2E270B28D21A5000EB212E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E270A28D21A5000EB212E /* ContentView.swift */; };
+		5B2E270D28D21A5100EB212E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2E270C28D21A5100EB212E /* Assets.xcassets */; };
+		5B2E271028D21A5100EB212E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2E270F28D21A5100EB212E /* Preview Assets.xcassets */; };
+		5B2E271828D21A7700EB212E /* HotenkaChineseConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E271728D21A7700EB212E /* HotenkaChineseConverter.swift */; };
+		5B2E271A28D21AC600EB212E /* convdict.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B2E271928D21AC500EB212E /* convdict.plist */; };
+		5B32996828D222110004C5F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B32996628D222110004C5F6 /* InfoPlist.strings */; };
+		5B32996C28D2221E0004C5F6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B32996A28D2221E0004C5F6 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B2E270528D21A5000EB212E /* HotenkaGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotenkaGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2E270828D21A5000EB212E /* HotenkaGUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotenkaGUIApp.swift; sourceTree = "<group>"; };
+		5B2E270A28D21A5000EB212E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B2E270C28D21A5100EB212E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B2E270F28D21A5100EB212E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B2E271128D21A5100EB212E /* HotenkaGUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HotenkaGUI.entitlements; sourceTree = "<group>"; };
+		5B2E271728D21A7700EB212E /* HotenkaChineseConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotenkaChineseConverter.swift; sourceTree = "<group>"; };
+		5B2E271928D21AC500EB212E /* convdict.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = convdict.plist; sourceTree = "<group>"; };
+		5B2E271B28D21FE300EB212E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5B32996728D222110004C5F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B32996928D2221E0004C5F6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		5B32996B28D2221E0004C5F6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		5B32996D28D2222A0004C5F6 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		5B32996E28D2222A0004C5F6 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B2E270228D21A5000EB212E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B2E26FC28D21A5000EB212E = {
+			isa = PBXGroup;
+			children = (
+				5B2E270728D21A5000EB212E /* HotenkaGUI */,
+				5B2E270628D21A5000EB212E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B2E270628D21A5000EB212E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E270528D21A5000EB212E /* HotenkaGUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B2E270728D21A5000EB212E /* HotenkaGUI */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E271B28D21FE300EB212E /* Info.plist */,
+				5B32996A28D2221E0004C5F6 /* Localizable.strings */,
+				5B32996628D222110004C5F6 /* InfoPlist.strings */,
+				5B2E271928D21AC500EB212E /* convdict.plist */,
+				5B2E270828D21A5000EB212E /* HotenkaGUIApp.swift */,
+				5B2E271728D21A7700EB212E /* HotenkaChineseConverter.swift */,
+				5B2E270A28D21A5000EB212E /* ContentView.swift */,
+				5B2E270C28D21A5100EB212E /* Assets.xcassets */,
+				5B2E271128D21A5100EB212E /* HotenkaGUI.entitlements */,
+				5B2E270E28D21A5100EB212E /* Preview Content */,
+			);
+			path = HotenkaGUI;
+			sourceTree = "<group>";
+		};
+		5B2E270E28D21A5100EB212E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E270F28D21A5100EB212E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B2E270428D21A5000EB212E /* HotenkaGUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2E271428D21A5100EB212E /* Build configuration list for PBXNativeTarget "HotenkaGUI" */;
+			buildPhases = (
+				5B2E270128D21A5000EB212E /* Sources */,
+				5B2E270228D21A5000EB212E /* Frameworks */,
+				5B2E270328D21A5000EB212E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotenkaGUI;
+			productName = HotenkaGUI;
+			productReference = 5B2E270528D21A5000EB212E /* HotenkaGUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B2E26FD28D21A5000EB212E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5B2E270428D21A5000EB212E = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 5B2E270028D21A5000EB212E /* Build configuration list for PBXProject "HotenkaGUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 5B2E26FC28D21A5000EB212E;
+			productRefGroup = 5B2E270628D21A5000EB212E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B2E270428D21A5000EB212E /* HotenkaGUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B2E270328D21A5000EB212E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B32996C28D2221E0004C5F6 /* Localizable.strings in Resources */,
+				5B2E271A28D21AC600EB212E /* convdict.plist in Resources */,
+				5B32996828D222110004C5F6 /* InfoPlist.strings in Resources */,
+				5B2E271028D21A5100EB212E /* Preview Assets.xcassets in Resources */,
+				5B2E270D28D21A5100EB212E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B2E270128D21A5000EB212E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2E270B28D21A5000EB212E /* ContentView.swift in Sources */,
+				5B2E271828D21A7700EB212E /* HotenkaChineseConverter.swift in Sources */,
+				5B2E270928D21A5000EB212E /* HotenkaGUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B32996628D222110004C5F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B32996728D222110004C5F6 /* en */,
+				5B32996928D2221E0004C5F6 /* zh-Hans */,
+				5B32996D28D2222A0004C5F6 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B32996A28D2221E0004C5F6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B32996B28D2221E0004C5F6 /* zh-Hans */,
+				5B32996E28D2222A0004C5F6 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B2E271228D21A5100EB212E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B2E271328D21A5100EB212E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5B2E271528D21A5100EB212E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HotenkaGUI/HotenkaGUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HotenkaGUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HotenkaGUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HotenkaGUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.atelierInmu.HotenkaGUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5B2E271628D21A5100EB212E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HotenkaGUI/HotenkaGUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HotenkaGUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HotenkaGUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HotenkaGUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.atelierInmu.HotenkaGUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B2E270028D21A5000EB212E /* Build configuration list for PBXProject "HotenkaGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2E271228D21A5100EB212E /* Debug */,
+				5B2E271328D21A5100EB212E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B2E271428D21A5100EB212E /* Build configuration list for PBXNativeTarget "HotenkaGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2E271528D21A5100EB212E /* Debug */,
+				5B2E271628D21A5100EB212E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B2E26FD28D21A5000EB212E /* Project object */;
+}
